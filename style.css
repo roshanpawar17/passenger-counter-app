@@ -1,0 +1,56 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.container .card{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 25vw;
+    padding: 12px;
+    background-color: rgb(240, 236, 230);
+    box-shadow: 0 0 5px 0.5px black;
+    border-radius: 10px;
+}
+
+.card .buttons{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 150px;
+    
+}
+
+.buttons .btn{
+    padding: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.buttons .btn-increment{
+    background-color: red;
+    color: white;
+}
+
+.buttons .btn-save{
+    background-color: green;
+    color: white;
+}
+
+.card .entry-container{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 25vw;
+}
+
